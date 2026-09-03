@@ -7,10 +7,10 @@ import pandas as pd
 
 
 ###### Loading the model #####
-model =tf.keras.models.load_model('artifacts\Ann_model.h5')
+model =tf.keras.models.load_model('artifacts/Ann_model.h5')
 
 ###### Loading preprocessor #####
-preprocessor = joblib.load("artifacts\churn_model_pipeline.pkl")
+preprocessor = joblib.load("artifacts/churn_model_pipeline.pkl")
 
 ###### Streamlit app #####
 st.title("ANN Model Churn Prediction")
