@@ -17,7 +17,7 @@ st.title("ANN Model Churn Prediction")
 
 ##### User input #####
 
-columns_name=np.load("artifacts\dataset_splits.npz")['columns']
+columns_name=np.load("artifacts/dataset_splits.npz")['columns']
 
 CreditScore = st.number_input('CreditScore')
 Geography = st.selectbox('Geography', ['France', 'Spain', 'Germany'])
